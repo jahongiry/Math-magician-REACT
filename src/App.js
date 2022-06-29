@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React, { pureComponent } from 'react';
 import Calculator from './components/Calculator';
-// eslint-disable-next-line react/prefer-stateless-function
-class App extends Component {
+
+class App extends pureComponent {
   render() {
     return <Calculator />;
   }
