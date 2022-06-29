@@ -10,13 +10,13 @@ export default class Calculator extends Component {
         <button type="submit">+/-</button>
         <button type="submit">%</button>
         <button className="orange-cl" type="submit">
-          /
+          ÷
         </button>
         <button type="submit">7</button>
         <button type="submit">8</button>
         <button type="submit">9</button>
         <button className="orange-cl" type="submit">
-          x
+          ×
         </button>
         <button type="submit">4</button>
         <button type="submit">5</button>
