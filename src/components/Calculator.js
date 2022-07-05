@@ -18,7 +18,10 @@ const Calculator = () => {
   };
 
   return (
-    <div>
+    <div className="top-container">
+      <div className="side">
+        <h2>Let&apos;s do some math!</h2>
+      </div>
       <div className="container">
         <span className="display" onChange={displayHandler}>
           {state.next || state.total || 0}

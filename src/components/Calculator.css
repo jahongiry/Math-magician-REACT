@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin: auto;
-  width: 20%;
+  width: 30%;
 }
 
 .display {
@@ -25,4 +25,13 @@
 button {
   border: rgb(133, 133, 147) 1px solid;
   padding: 1.2rem 1.5rem;
+}
+
+.top-container {
+  display: flex;
+  padding: 5rem 2rem;
+}
+
+.side {
+  font-size: 2rem;
 }
