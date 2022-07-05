@@ -4,11 +4,10 @@ import Calculator from './components/Calculator';
 import Quote from './components/Quote';
 import Welcome from './components/Welcome';
 import Navigation from './components/Navigation';
-import classes from './App.module.css';
 
 function App() {
   return (
-    <div className={classes.container}>
+    <div>
       <Navigation />
       <Switch>
         <Route path="/" exact>
