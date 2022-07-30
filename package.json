@@ -1,4 +1,5 @@
 {
+  "homepage": "http://jahongiry.github.io/Math-magician-REACT",
   "name": "math-magicin-react",
   "version": "0.1.0",
   "private": true,
@@ -15,6 +16,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -48,6 +51,7 @@
     "eslint-plugin-jsx-a11y": "^6.6.0",
     "eslint-plugin-react": "^7.30.1",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "gh-pages": "^4.0.0",
     "react-test-renderer": "^18.2.0",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
